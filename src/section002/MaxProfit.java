@@ -2,7 +2,11 @@ package section002;
 
 import java.util.Scanner;
 
-// http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_1_D&lang=ja
+/**
+ * 導入問題
+ * @author nobu
+ * @see <a href="http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_1_D&lang=ja">ALDS1_1_D</a>
+ */
 public class MaxProfit {
 
 	public static void main(String[] args) {
