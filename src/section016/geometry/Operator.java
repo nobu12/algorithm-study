@@ -16,7 +16,7 @@ public class Operator {
 	}
 
 	public static double norm(Point p) {
-		return p.x * p.x + p.y + p.y;
+		return p.x * p.x + p.y * p.y;
 	}
 
 	public static double abs(Point p) {
