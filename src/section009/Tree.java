@@ -31,6 +31,16 @@ public class Tree {
 		return node;
 	}
 
+	protected boolean exists(int key) {
+		Node child = root;
+		while (child != null) {
+			if (child.key == key) return true;
+			if (key < child.key) child = child.left;
+			else child = child.right;
+		}
+		return false;
+	}
+
 	protected void print(Order order) {
 		switch (order) {
 			case PreOrder:
